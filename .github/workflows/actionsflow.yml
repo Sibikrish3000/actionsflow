@@ -25,7 +25,7 @@ jobs:
     concurrency: actionsflow
     steps:
       - uses: actions/checkout@v3
-      - name: Debug: Environment Variables
+      - name: Debug:Environment Variables
         run: env
       - name: Run Actionsflow
         uses: actionsflow/actionsflow-action@v1.3.0
